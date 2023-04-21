@@ -1,4 +1,10 @@
 package ru.gb.kamenev.controller;
 
-public class Calculator {
+import ru.gb.kamenev.model.Calculatable;
+import ru.gb.kamenev.model.Summable;
+
+public class Calculator <N extends Calculatable> {
+    N summ (N arg1, N arg2){
+        return (Summable)arg1.sum(arg2);
+    }
 }

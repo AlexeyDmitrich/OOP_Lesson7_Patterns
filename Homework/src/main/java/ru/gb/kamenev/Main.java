@@ -1,6 +1,6 @@
-package ru.gb.kamenev;
+package main.java.ru.gb.kamenev;
 
-import ru.gb.kamenev.model.ComplexNumber;
+import main.java.ru.gb.kamenev.model.ComplexNumber;
 
 public class Main {
     public static void main(String[] args) {

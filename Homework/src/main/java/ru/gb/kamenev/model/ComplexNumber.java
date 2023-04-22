@@ -1,4 +1,4 @@
-package ru.gb.kamenev.model;
+package main.java.ru.gb.kamenev.model;
 
 public class ComplexNumber extends Number implements Summable, Subtractionable, Multiplicationable {
     //z1 = a1+b1i

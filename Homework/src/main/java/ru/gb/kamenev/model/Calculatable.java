@@ -1,4 +1,4 @@
-package ru.gb.kamenev.model;
+package main.java.ru.gb.kamenev.model;
 
 public interface Calculatable {
 }

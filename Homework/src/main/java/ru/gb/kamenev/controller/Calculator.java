@@ -1,13 +1,15 @@
-package main.java.ru.gb.kamenev.controller;
+package ru.gb.kamenev.controller;
 
-import main.java.ru.gb.kamenev.model.Calculatable;
-import main.java.ru.gb.kamenev.model.Summable;
 
-public class Calculator <N extends Calculatable> {
-    /*
-    N summ (N arg1, N arg2){
+import ru.gb.kamenev.model.Calculatable;
+import ru.gb.kamenev.model.Summable;
 
-        return (Summable)arg1.sum(arg2);
-    }
-    */
+public class Calculator<N extends Calculatable> {
+
+//    N summ (N arg1, N arg2){
+//        N sum = (N)(((Summable) arg1).sum((Number) arg2));
+//        return sum;
+//    }
+
+
 }

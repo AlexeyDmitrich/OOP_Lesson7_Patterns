@@ -1,4 +1,4 @@
-package main.java.ru.gb.kamenev.model;
+package ru.gb.kamenev.model;
 
 public interface Summable <T extends Number> extends Calculatable {
     T sum (T arg2);
